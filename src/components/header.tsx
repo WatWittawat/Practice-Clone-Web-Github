@@ -63,7 +63,7 @@ export default function Header() {
           ></Image>
         </div>
       </div>
-      <div className="flex mx-2">
+      <nav className="flex mx-2">
         <HandleClick
           icon={<IoBookOutline></IoBookOutline>}
           text="Overview"
@@ -81,7 +81,7 @@ export default function Header() {
           text="Packages"
         ></HandleClick>
         <HandleClick icon={<CiStar></CiStar>} text="Stars"></HandleClick>
-      </div>
+      </nav>
     </header>
   );
 }
